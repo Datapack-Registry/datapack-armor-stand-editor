@@ -1,8 +1,11 @@
-item replace entity @s hotbar.2 with minecraft:spyglass[\
-  item_name='{"text": "Looking Teleport (Grid: %grid_enabled%)", "color": "white"}',\
+item replace entity @s hotbar.0 with minecraft:lime_concrete[\
+  item_name='{"text": "Rotate Y Axis", "color": "white"}',\
   lore=[\
-    '{"color": "gray", "italic": false, "text": "Teleport the Armor Stand to where you are looking at."}',\
-    '{"color": "gray", "italic": false, "text": "• Grid: If the Armor Stand should be aligned to the grid."}',\
+    '[\
+      {"color": "gray", "italic": false, "text": "Rotate the Armor Stand on the "},\
+      {"color": "green", "italic": false, "text": "Y axis"},\
+      {"color": "gray", "italic": false, "text": "."}\
+    ]',\
     '{"text": ""}',\
     '[\
       {"color": "gray", "text": "Press "},\
@@ -19,5 +22,6 @@ item replace entity @s hotbar.2 with minecraft:spyglass[\
       {"color": "yellow", "keybind": "key.sneak"},\
       {"color": "gray", "text": " to invert the direction."}\
     ]'\
-  ]\
+  ],\
+  food={nutrition: 0, saturation: 0, is_meat: false, can_always_eat: true, eat_seconds: 2147483647}\
 ] 1

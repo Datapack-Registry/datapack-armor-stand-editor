@@ -1,4 +1,4 @@
-item replace entity @s hotbar.5 with minecraft:globe_banner_pattern[\
+item replace entity @s hotbar.6 with minecraft:globe_banner_pattern[\
   item_name='{"text": "Presets", "color": "white"}',\
   lore=[\
     '{"color": "gray", "italic": false, "text": "Open/Edit/Apply presets for the Armor Stand."}',\

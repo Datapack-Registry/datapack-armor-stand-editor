@@ -1,7 +1,7 @@
-item replace entity @s hotbar.8 with minecraft:barrier[\
-  item_name='{"color": "white", "text": "Back"}',\
+item replace entity @s hotbar.1 with minecraft:compass[\
+  item_name='{"text": "Rotation", "color": "white"}',\
   lore=[\
-    '{"color": "gray", "italic": false, "text": "Go back."}',\
+    '{"color": "gray", "italic": false, "text": "Change the rotation of the Armor Stand."}',\
     '{"text": ""}',\
     '[\
       {"color": "gray", "text": "Press "},\

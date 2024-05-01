@@ -1,4 +1,4 @@
-item replace entity @s hotbar.4 with minecraft:comparator[\
+item replace entity @s hotbar.5 with minecraft:comparator[\
   item_name='{"text": "Properties", "color": "white"}',\
   lore=[\
     '{"color": "gray", "italic": false, "text": "Change the properties of the Armor Stand."}',\

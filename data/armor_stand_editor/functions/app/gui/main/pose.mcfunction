@@ -1,4 +1,4 @@
-item replace entity @s hotbar.1 with minecraft:stick[\
+item replace entity @s hotbar.2 with minecraft:stick[\
   item_name='{"text": "Pose", "color": "white"}',\
   lore=[\
     '{"color": "gray", "italic": false, "text": "Change the pose of the Armor Stand."}',\

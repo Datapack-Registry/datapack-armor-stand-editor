@@ -1,8 +1,8 @@
-item replace entity @s hotbar.3 with minecraft:ender_pearl[\
-  item_name='{"text": "Position Teleport (Keep Rotation: %keep_rotation%)", "color": "white"}',\
+item replace entity @s hotbar.2 with minecraft:spyglass[\
+  item_name='{"text": "Position Looking (Grid: %grid_enabled%)", "color": "white"}',\
   lore=[\
-    '{"color": "gray", "italic": false, "text": "Teleport the Armor Stand to your current position."}',\
-    '{"color": "gray", "italic": false, "text": "• Keep Rotation: If the Armor Stand should keep its rotation."}',\
+    '{"color": "gray", "italic": false, "text": "Teleport the Armor Stand to where you are looking at."}',\
+    '{"color": "gray", "italic": false, "text": "• Grid: If the Armor Stand should be aligned to the grid."}',\
     '{"text": ""}',\
     '[\
       {"color": "gray", "text": "Press "},\

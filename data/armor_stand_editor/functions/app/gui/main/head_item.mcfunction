@@ -1,4 +1,4 @@
-item replace entity @s hotbar.2 with minecraft:player_head[\
+item replace entity @s hotbar.3 with minecraft:player_head[\
   item_name='{"text": "Head Item", "color": "white"}',\
   lore=[\
     '{"color": "gray", "italic": false, "text": "Change the head item of the Armor Stand."}',\
