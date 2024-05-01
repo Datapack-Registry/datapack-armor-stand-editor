@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "{{namespace}}:app/main"
+        "armor_stand_editor:app/main"
     ]
 }
