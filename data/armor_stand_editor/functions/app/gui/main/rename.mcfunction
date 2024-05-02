@@ -1,7 +1,7 @@
-item replace entity @s hotbar.4 with minecraft:writable_book[\
-  item_name='{"text": "Rename", "color": "white"}',\
+item replace entity @s hotbar.4 with minecraft:name_tag[\
+  item_name='{"text": "Custom Name", "color": "white"}',\
   lore=[\
-    '{"color": "gray", "italic": false, "text": "Change the name of the Armor Stand."}',\
+    '{"color": "gray", "italic": false, "text": "Change the custom name of the Armor Stand."}',\
     '{"text": ""}',\
     '[\
       {"color": "gray", "text": "Press "},\
