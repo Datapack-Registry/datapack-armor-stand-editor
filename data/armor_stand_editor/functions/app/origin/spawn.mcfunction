@@ -27,8 +27,7 @@ summon minecraft:block_display ~ ~ ~ {\
         translation: [0f, -0.025f, -0.025f],\
         scale: [1f, 0.05f, 0.05f]\
       },\
-      interpolation_duration: 10,\
-      start_interpolation: -1,\
+      interpolation_duration: 1,\
       block_state: {Name: "minecraft:red_concrete"}\
     },\
     {\
@@ -45,8 +44,7 @@ summon minecraft:block_display ~ ~ ~ {\
         translation: [-0.025f, 0f, -0.025f],\
         scale: [0.05f, 1f, 0.05f]\
       },\
-      interpolation_duration: 10,\
-      start_interpolation: -1,\
+      interpolation_duration: 1,\
       block_state: {Name: "minecraft:lime_concrete"}\
     },\
     {\
@@ -63,8 +61,7 @@ summon minecraft:block_display ~ ~ ~ {\
         translation: [-0.025f, -0.025f, 0f],\
         scale: [0.05f, 0.05f, 1f]\
       },\
-      interpolation_duration: 10,\
-      start_interpolation: -1,\
+      interpolation_duration: 1,\
       block_state: {Name: "minecraft:light_blue_concrete"}\
     }\
   ]\
