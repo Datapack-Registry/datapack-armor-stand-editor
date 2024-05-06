@@ -10,4 +10,4 @@ execute unless data storage datapack:registry list[{namespace: 'armor_stand_edit
   data: {}\
 }
 
-function armor_stand_editor:datapack/edit_items
+function armor_stand_editor:config/edit_item

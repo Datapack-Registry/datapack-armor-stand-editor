@@ -2,7 +2,7 @@ tellraw @a [\
   "",\
   {\
     "text": "[",\
-    "color": "gray"\
+    "color": "#aaaaaa"\
   },\
   {\
     "storage": "datapack:registry",\
@@ -10,7 +10,16 @@ tellraw @a [\
     "hoverEvent": {\
       "action": "show_text",\
       "contents": [\
-        { "text": "\"Armor Stand Editor\" (armor_stand_editor)" },\
+        {\
+          "storage": "datapack:registry",\
+          "nbt": "list[{namespace: 'armor_stand_editor'}].name"\
+        },\
+        " (",\
+        {\
+          "storage": "datapack:registry",\
+          "nbt": "list[{namespace: 'armor_stand_editor'}].namespace"\
+        },\
+        ")",\
         "\n",\
         {\
           "storage": "datapack:registry",\
@@ -18,20 +27,20 @@ tellraw @a [\
           "color": "#aaaaaa"\
         },\
         "\n\n",\
-        { "text": "Version " },\
+        "Version ",\
         {\
           "storage": "datapack:registry",\
           "nbt": "list[{namespace: 'armor_stand_editor'}].version.datapack",\
           "color": "#55ff55"\
         },\
-        { "text": " for Minecraft " },\
+        " for Minecraft ",\
         {\
           "storage": "datapack:registry",\
           "nbt": "list[{namespace: 'armor_stand_editor'}].version.minecraft",\
           "color": "#55ff55"\
         },\
         "\n",\
-        { "text": "by " },\
+        "by ",\
         {\
           "storage": "datapack:registry",\
           "nbt": "list[{namespace: 'armor_stand_editor'}].author",\
@@ -42,7 +51,7 @@ tellraw @a [\
   },\
   {\
     "text": "]",\
-    "color": "gray"\
+    "color": "#aaaaaa"\
   },\
   " reloaded!"\
 ]
