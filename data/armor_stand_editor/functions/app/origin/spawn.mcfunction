@@ -3,7 +3,7 @@ summon minecraft:block_display ~ ~ ~ {\
     "armor_stand_editor",\
     "armor_stand_editor.entity",\
     "armor_stand_editor.origin",\
-    "armor_stand_editor.origin.parent"\
+    "armor_stand_editor.origin.root"\
   ],\
   transformation: {\
     left_rotation: [0f, 0f, 0f, 1f],\

@@ -3,11 +3,11 @@
     "pack_format": 26,
     "description": [
       {
-        "text": "\"{{datapack_name}}\" (namespace)"
+        "text": "\"Armor Stand Editor\" (armor_stand_editor)"
       },
       "\n",
       {
-        "text": "{{datapack_description}}",
+        "text": "In-Game editor for Armor Stands.",
         "color": "#aaaaaa"
       },
       "\n\n",
@@ -15,14 +15,14 @@
         "text": "Version "
       },
       {
-        "text": "{{datapack_version}}",
+        "text": "v0.1.0",
         "color": "#55ff55"
       },
       {
         "text": " for Minecraft "
       },
       {
-        "text": "{{minecraft_version}}",
+        "text": "1.20.6",
         "color": "#55ff55"
       },
       "\n",
@@ -30,7 +30,7 @@
         "text": "by "
       },
       {
-        "text": "{{datapack_author}}",
+        "text": "Mqx",
         "color": "#ffff55"
       }
     ]
