@@ -1,1 +1,1 @@
-$item modify entity @s $(slot) armor_stand_editor:modify_lore/hotkeys/invert
+$item modify entity @s $(slot) armor_stand_editor:modify_lore/hotkeys/append_invert

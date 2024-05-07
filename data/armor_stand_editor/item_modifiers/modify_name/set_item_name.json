@@ -5,7 +5,6 @@
   "name": {
     "nbt": "item.name",
     "storage": "armor_stand_editor:item",
-    "interpret": true,
     "color": "#ffffff",
     "italic": false
   }
