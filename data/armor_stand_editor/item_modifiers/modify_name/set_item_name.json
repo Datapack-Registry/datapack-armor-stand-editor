@@ -1,0 +1,12 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "target": "item_name",
+  "name": {
+    "nbt": "item.name",
+    "storage": "armor_stand_editor:item",
+    "interpret": true,
+    "color": "#ffffff",
+    "italic": false
+  }
+}

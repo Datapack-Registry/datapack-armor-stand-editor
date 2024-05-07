@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "nbt": "item.description[0]",
+      "storage": "armor_stand_editor:item",
+      "color": "#aaaaaa",
+      "italic": false
+    }
+  ],
+  "mode": "append"
+}

@@ -1,0 +1,20 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "translate": "armor_stand_editor.item.lore.hotkeys.cycle",
+      "fallback": "Press %s to cycle trough.",
+      "with": [
+        {
+          "keybind": "key.swapOffhand",
+          "color": "#ffff55",
+          "italic": true
+        }
+      ],
+      "color": "#aaaaaa",
+      "italic": true
+    }
+  ],
+  "mode": "append"
+}
