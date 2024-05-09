@@ -1,0 +1,2 @@
+scoreboard objectives add armor_stand_editor.timer.delay_since_last_run.play_time minecraft.custom:play_time
+scoreboard objectives add armor_stand_editor.timer.delay_since_last_run.last_used dummy

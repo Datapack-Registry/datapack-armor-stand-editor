@@ -1,8 +1,6 @@
 {
     "replace": false,
     "values": [
-        "armor_stand_editor:datapack/add",
-        "armor_stand_editor:scoreboard/add",
         "armor_stand_editor:app/setup"
     ]
 }
