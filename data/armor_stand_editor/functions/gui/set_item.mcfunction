@@ -4,7 +4,8 @@ $item replace entity @s $(slot) with $(item)[\
     description: $(description),\
     actions: $(actions)\
   }}},\
-  hide_additional_tooltip = {}\
+  hide_additional_tooltip = {},\
+  unbreakable = {show_in_tooltip: false}\
 ] 1
 
 $function armor_stand_editor:gui/update_item_text {slot: "$(slot)"}
