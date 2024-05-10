@@ -1,4 +1,4 @@
-## This function copies the item data of the item, to the armor_stand_editor:items storage.
+## This function copies the item data of the item, to the armor_stand_editor:items item storage.
 ## An item frame is used as a data holder for in between so that a slot can be specified
 ##
 ## @slot The slot to copy the item data from
