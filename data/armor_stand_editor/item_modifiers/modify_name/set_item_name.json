@@ -4,8 +4,9 @@
   "target": "item_name",
   "name": {
     "nbt": "item.name",
-    "storage": "armor_stand_editor:item",
+    "storage": "armor_stand_editor:items",
     "color": "#ffffff",
-    "italic": false
+    "italic": false,
+    "interpret": true
   }
 }

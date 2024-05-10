@@ -1,10 +1,10 @@
-## This function copies the item data of the item, to the armor_stand_editor:item storage.
+## This function copies the item data of the item, to the armor_stand_editor:items storage.
 ## An item frame is used as a data holder for in between so that a slot can be specified
 ##
 ## @slot The slot to copy the item data from
 
 # clear remaining storage
-data remove storage armor_stand_editor:item item
+data remove storage armor_stand_editor:items item
 
 # spawn new item frame to copy the item data
 execute at @s run summon minecraft:item_frame ~ -1 ~ {Tags: [\
@@ -18,7 +18,7 @@ execute at @s run summon minecraft:item_frame ~ -1 ~ {Tags: [\
 $item replace entity @e[tag = armor_stand_editor.item_modifier.contents_item_frame] contents from entity @s $(slot)
 
 # copy item data from item frame to storage
-data modify storage armor_stand_editor:item item set from entity @e[\
+data modify storage armor_stand_editor:items item set from entity @e[\
   tag = armor_stand_editor.item_modifier.contents_item_frame,\
   limit = 1\
 ] Item.components."minecraft:custom_data".armor_stand_editor.item

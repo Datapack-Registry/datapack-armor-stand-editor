@@ -12,7 +12,7 @@
     }
   },
   "rewards": {
-    "function": "armor_stand_editor:gui/action_handlers/use/advancement_trigger"
+    "function": "armor_stand_editor:advancements/gui/action_handlers/use"
   },
   "sends_telemetry_event": false
 }

@@ -4,9 +4,10 @@
   "lore": [
     {
       "nbt": "item.description[0]",
-      "storage": "armor_stand_editor:item",
+      "storage": "armor_stand_editor:items",
       "color": "#aaaaaa",
-      "italic": false
+      "italic": false,
+      "interpret": true
     }
   ],
   "mode": "append"

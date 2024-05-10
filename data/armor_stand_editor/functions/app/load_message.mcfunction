@@ -5,45 +5,28 @@ tellraw @a [\
     "color": "#aaaaaa"\
   },\
   {\
-    "storage": "datapack:registry",\
-    "nbt": "list[{namespace: 'armor_stand_editor'}].name",\
+    "text": "Armor Stand Editor",\
     "hoverEvent": {\
       "action": "show_text",\
       "contents": [\
+        "Armor Stand Editor (armor_stand_editor)\n",\
         {\
-          "storage": "datapack:registry",\
-          "nbt": "list[{namespace: 'armor_stand_editor'}].name"\
-        },\
-        " (",\
-        {\
-          "storage": "datapack:registry",\
-          "nbt": "list[{namespace: 'armor_stand_editor'}].namespace"\
-        },\
-        ")",\
-        "\n",\
-        {\
-          "storage": "datapack:registry",\
-          "nbt": "list[{namespace: 'armor_stand_editor'}].description",\
+          "text": "A lightweight, simple to use Armor Stand Editor for survival.",\
           "color": "#aaaaaa"\
         },\
-        "\n\n",\
-        "Version ",\
+        "\n\nVersion ",\
         {\
-          "storage": "datapack:registry",\
-          "nbt": "list[{namespace: 'armor_stand_editor'}].version.datapack",\
+          "text": "v0.1.0",\
           "color": "#55ff55"\
         },\
         " for Minecraft ",\
         {\
-          "storage": "datapack:registry",\
-          "nbt": "list[{namespace: 'armor_stand_editor'}].version.minecraft",\
+          "text": "1.20.6",\
           "color": "#55ff55"\
         },\
-        "\n",\
-        "by ",\
+        "\nby ",\
         {\
-          "storage": "datapack:registry",\
-          "nbt": "list[{namespace: 'armor_stand_editor'}].author",\
+          "text": "Max",\
           "color": "#ffff55"\
         }\
       ]\

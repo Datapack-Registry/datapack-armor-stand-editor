@@ -1,6 +1,7 @@
 $item replace entity @s $(slot) with $(item)[\
   custom_data = {armor_stand_editor: {item: {\
-    name: "$(name)",\
+    slot: "$(slot)",\
+    name: '$(name)',\
     description: $(description),\
     actions: $(actions)\
   }}},\
