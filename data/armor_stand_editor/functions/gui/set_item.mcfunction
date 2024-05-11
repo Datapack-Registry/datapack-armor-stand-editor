@@ -1,6 +1,8 @@
 $item replace entity @s $(slot) with $(item)[\
   custom_data = {armor_stand_editor: {item: {\
-    slot: "$(slot)",\
+    slot:{\
+      replace: "$(slot)"\
+    },\
     name: '$(name)',\
     description: $(description),\
     actions: $(actions)\
@@ -9,5 +11,7 @@ $item replace entity @s $(slot) with $(item)[\
   unbreakable = {show_in_tooltip: false}\
 ] 1
 
-$function armor_stand_editor:gui/update_item_text {slot: "$(slot)"}
+
+$function armor_stand_editor:gui/update_item/slot_inventory {slot: "$(slot)"}
+$function armor_stand_editor:gui/update_item/text {slot: "$(slot)"}
 $function armor_stand_editor:item_modifiers/modify_components/set_food_rightclickable {slot: "$(slot)"}

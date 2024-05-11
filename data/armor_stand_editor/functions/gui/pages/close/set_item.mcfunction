@@ -8,4 +8,3 @@ function armor_stand_editor:gui/set_item {\
     drag: {commands: ['function armor_stand_editor:gui/pages/close/actions/drag']}\
   }\
 }
-

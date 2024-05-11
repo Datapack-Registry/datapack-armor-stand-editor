@@ -1,0 +1,14 @@
+{
+  "function": "minecraft:copy_custom_data",
+  "source": {
+    "type": "minecraft:storage",
+    "source": "armor_stand_editor:items"
+  },
+  "ops": [
+    {
+      "source": "slot_inventory",
+      "target": "armor_stand_editor.item.slot.inventory",
+      "op": "replace"
+    }
+  ]
+}

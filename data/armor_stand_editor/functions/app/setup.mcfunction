@@ -1,3 +1,5 @@
+scoreboard objectives add armor_stand_editor.slot.inventory dummy
+
 function armor_stand_editor:time/delay_since_last_run/setup
 function armor_stand_editor:time/delay_since_last_run/set_delay {delay: 4}
 
