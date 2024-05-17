@@ -14,4 +14,7 @@ $data modify storage armor_stand_editor:libs array.actions.slice.value set value
 $data modify storage armor_stand_editor:libs array.actions.slice.start set value '$(start)'
 $data modify storage armor_stand_editor:libs array.actions.slice.end set value '$(end)'
 
-function armor_stand_editor:libs/array/storage/loop_over_array
+$function armor_stand_editor:libs/array/storage/remove_start {start: $(start)}
+$function armor_stand_editor:libs/array/storage/remove_end {end: $(end)}
+
+data modify storage armor_stand_editor:libs array.actions.output set from storage armor_stand_editor:libs array.actions.slice.value
