@@ -5,4 +5,4 @@
 ##
 
 # remove the last character
-$function armor_stand_editor:libs/string/actions/slice {value: '$(value)', start: 0, end: -1}
+$function armor_stand_editor:libs/string/actions/set/slice {value: '$(value)', start: 0, end: -1}

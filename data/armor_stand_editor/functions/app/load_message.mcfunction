@@ -11,7 +11,7 @@ tellraw @a [\
       "contents": [\
         "Armor Stand Editor (armor_stand_editor)\n",\
         {\
-          "text": "A lightweight, simple to use Armor Stand Editor\n for survival.",\
+          "text": "A lightweight, simple to use Armor Stand Editor\nfor survival.",\
           "color": "#aaaaaa"\
         },\
         "\n\nVersion ",\
