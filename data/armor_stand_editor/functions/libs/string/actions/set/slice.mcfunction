@@ -11,6 +11,12 @@
 function armor_stand_editor:libs/string/storage/reset
 # set new value
 $data modify storage armor_stand_editor:libs string.actions.slice.value set value '$(value)'
-# slice string
-$data modify storage armor_stand_editor:libs string.actions.output set \
-  string storage armor_stand_editor:libs string.actions.slice.value $(start) $(end)
+$data modify storage armor_stand_editor:libs string.actions.slice.end set value '$(end)'
+# slice string start to end
+$execute unless data storage armor_stand_editor:libs string.actions.slice{end: ''} \
+  run data modify storage armor_stand_editor:libs string.actions.output set \
+    string storage armor_stand_editor:libs string.actions.slice.value $(start) $(end)
+# slice string start to (end)
+$execute if data storage armor_stand_editor:libs string.actions.slice{end: ''} \
+  run data modify storage armor_stand_editor:libs string.actions.output set \
+    string storage armor_stand_editor:libs string.actions.slice.value $(start)
