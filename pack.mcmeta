@@ -2,35 +2,24 @@
   "pack": {
     "pack_format": 26,
     "description": [
+      "Armor Stand Editor (armor_stand_editor)\n",
       {
-        "text": "\"Armor Stand Editor\" (armor_stand_editor)"
-      },
-      "\n",
-      {
-        "text": "In-Game editor for Armor Stands.",
+        "text": "A lightweight, simple to use Armor Stand Editor\n for survival.",
         "color": "#aaaaaa"
       },
-      "\n\n",
-      {
-        "text": "Version "
-      },
+      "\n\nVersion ",
       {
         "text": "v0.1.0",
         "color": "#55ff55"
       },
-      {
-        "text": " for Minecraft "
-      },
+      " for Minecraft ",
       {
         "text": "1.20.6",
         "color": "#55ff55"
       },
-      "\n",
+      "\nby ",
       {
-        "text": "by "
-      },
-      {
-        "text": "Mqx",
+        "text": "Max",
         "color": "#ffff55"
       }
     ]
