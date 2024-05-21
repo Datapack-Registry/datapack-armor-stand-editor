@@ -7,7 +7,8 @@
 # @param actions {{use : {}, drag : {}, change : {}}} The actions of the item  
 ##
 
-$data modify storage armor_stand_editor:gui pages."$(page)"."$(slot)" set value {\
+$data modify storage armor_stand_editor:gui pages."$(page)" append value {\
+  slot: $(slot),\
   item: $(item),\
   actions: $(actions)\
 }
