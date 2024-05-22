@@ -3,4 +3,4 @@
 ##
 
 # remove old data
-data remove storage armor_stand_editor:libs array.actions
+data remove storage armor_stand_editor:lib array.actions

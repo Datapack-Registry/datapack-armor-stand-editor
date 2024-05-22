@@ -5,6 +5,6 @@
 ##
 
 # clear old storage
-function armor_stand_editor:libs/string/storage/reset
+function armor_stand_editor:lib/string/storage/reset
 # remove the first entry
-data remove storage armor_stand_editor:libs string.actions.output[1]
+data remove storage armor_stand_editor:lib string.actions.output[1]
