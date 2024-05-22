@@ -1,1 +1,0 @@
-function armor_stand_editor:gui/action_handlers/change/main
