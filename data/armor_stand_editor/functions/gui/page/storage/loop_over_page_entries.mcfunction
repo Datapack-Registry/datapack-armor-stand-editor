@@ -1,6 +1,8 @@
-##
+#> armor_stand_editor:gui/page/storage/loop_over_page_entries
+#
 # This function loops over all entries in the page.
-##
+#
+# @writes storage armor_stand_editor:gui current.entries  
 
 # Call on each element
 

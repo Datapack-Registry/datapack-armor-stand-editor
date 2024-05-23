@@ -1,8 +1,9 @@
-##
+#> armor_stand_editor:gui/page/display
+#
 # This function is used to display the armor stand editor GUI.
 #
-# @param $(page_id) {string} The page to display
-##
+# @api  
+# @input $(page_id) {string} The page to display
 
 # Clear remaining entries
 function armor_stand_editor:gui/page/storage/clear/current
