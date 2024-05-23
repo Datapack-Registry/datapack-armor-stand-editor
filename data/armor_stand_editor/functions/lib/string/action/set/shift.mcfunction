@@ -1,7 +1,7 @@
 ##
 # This function removes the first character of the string. This function changes the length of the string.
 # 
-# @param value {string} The string to remove the first character
+# @param $(value) {string} The string to remove the first character
 ##
 
 # remove the first character

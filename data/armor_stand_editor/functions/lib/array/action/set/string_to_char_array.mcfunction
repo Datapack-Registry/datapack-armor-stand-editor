@@ -1,7 +1,7 @@
 ## 
 # This function generates a char array from a string.
 # 
-# @param value {string} The string to convert to a char array
+# @param $(value) {string} The string to convert to a char array
 ##
 
 # clear old storage

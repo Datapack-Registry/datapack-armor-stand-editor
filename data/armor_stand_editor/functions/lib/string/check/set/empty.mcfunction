@@ -1,7 +1,7 @@
 ## 
 # This function check if the provided value is empty.
 # 
-# @param value {string} The value to check for
+# @param $(value) {string} The value to check for
 ##
 
 # clear old storage

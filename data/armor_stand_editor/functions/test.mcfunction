@@ -1,1 +1,0 @@
-function armor_stand_editor:lib/array/action/for_each {array: ["a", "b", "c", "x", "y", "z", "1", "2", "3"], function: {name: "armor_stand_editor:log", element: "my_own_element_parameter", index: "my_own_index_parameter"}}

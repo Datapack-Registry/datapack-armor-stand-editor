@@ -1,7 +1,7 @@
 ##
 # This function removes the first element of the array. This function changes the length of the array.
 # 
-# @param value {any[]} The array to remove the first element
+# @param $(value) {any[]} The array to remove the first element
 ##
 
 # clear old storage

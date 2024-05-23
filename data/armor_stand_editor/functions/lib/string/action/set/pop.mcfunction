@@ -1,7 +1,7 @@
 ##
 # This function removes the last character of the string. This function changes the length of the string.
 # 
-# @param value {string} The string to remove the last character
+# @param $(value) {string} The string to remove the last character
 ##
 
 # remove the last character

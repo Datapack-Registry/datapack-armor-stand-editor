@@ -4,9 +4,9 @@
 # - element
 # - index
 # 
-# @param array {any[]} The array to iterate over
-# @param function {function : string} The function to execute on each element
-# @param parameters {{element : string, index : string, array : any[]}} The function to execute on each element
+# @param $(array) {any[]} The array to iterate over
+# @param $(function) {function : string} The function to execute on each element
+# @param $(parameters) {{element : string, index : string, array : any[]}} The function to execute on each element
 ##
 
 # clear old storage

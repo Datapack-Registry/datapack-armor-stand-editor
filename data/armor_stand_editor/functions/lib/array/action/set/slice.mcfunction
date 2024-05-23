@@ -2,9 +2,9 @@
 # This function extracts a section of the array and replaces the old array. This function changes the length of the
 # array.
 # 
-# @param value {string} The array to slice
-# @param start {number} The start of the section
-# @param end {number} The end of the section
+# @param $(value) {string} The array to slice
+# @param $(start) {number} The start of the section
+# @param $(end) {number} The end of the section
 ##
 
 # clear old storage

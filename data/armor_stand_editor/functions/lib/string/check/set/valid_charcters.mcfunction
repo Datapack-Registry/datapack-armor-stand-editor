@@ -1,8 +1,8 @@
 ## 
 # This function check if the provided value is empty.
 # 
-# @param value {string} The string to check for
-# @param characters {string[]} The array of valid characters
+# @param $(value) {string} The string to check for
+# @param $(characters) {string[]} The array of valid characters
 ##
 
 # clear old storage
