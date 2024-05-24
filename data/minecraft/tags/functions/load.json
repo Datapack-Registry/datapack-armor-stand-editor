@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "armor_stand_editor:config/image",
         "armor_stand_editor:lib/array/setup",
         "armor_stand_editor:app/setup"
     ]
