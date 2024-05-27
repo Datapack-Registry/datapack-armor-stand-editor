@@ -19,28 +19,10 @@
           }
         ]
       }
-    },
-    "place_item_in_inventory": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "predicates": {
-              "minecraft:custom_data": "{armor_stand_editor:{}}"
-            }
-          }
-        ]
-      }
     }
   },
-  "requirements": [
-    [
-      "place_item_in_inventory",
-      "pick_item_from_inventory"
-    ]
-  ],
   "rewards": {
-    "function": "armor_stand_editor:advancement/gui/action_handler/change"
+    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/pick"
   },
   "sends_telemetry_event": false
 }

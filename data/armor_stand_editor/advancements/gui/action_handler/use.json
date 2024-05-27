@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "use_item": {
+    "use": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
