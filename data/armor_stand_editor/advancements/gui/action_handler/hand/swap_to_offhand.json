@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "pick": {
+    "swap_to_offhand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "slots": {
-                "player.cursor": {
+                "weapon.offhand": {
                   "predicates": {
                     "minecraft:custom_data": "{armor_stand_editor:{}}"
                   }
@@ -17,11 +17,18 @@
               }
             }
           }
+        ],
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{armor_stand_editor:{}}"
+            }
+          }
         ]
       }
     }
   },
   "rewards": {
-    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/pick"
+    "function": "armor_stand_editor:advancement/gui/action_handler/hand/swap_to_offhand"
   }
 }

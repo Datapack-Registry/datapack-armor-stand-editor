@@ -5,14 +5,13 @@
       "conditions": {
         "item": {
           "predicates": {
-            "minecraft:custom_data": "{\"armor_stand_editor\":{}}"
+            "minecraft:custom_data": "{armor_stand_editor:{}}"
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "armor_stand_editor:advancements/gui/action_handlers/use"
-  },
-  "sends_telemetry_event": false
+    "function": "armor_stand_editor:advancement/gui/action_handler/hand/use"
+  }
 }
