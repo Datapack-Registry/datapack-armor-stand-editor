@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['armor_stand_editor.advancement.gui.action_handler.inventory.place.cursor']}"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{armor_stand_editor:{}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/change"
+  }
+}

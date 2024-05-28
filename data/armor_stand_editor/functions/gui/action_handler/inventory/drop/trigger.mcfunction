@@ -1,0 +1,1 @@
+say Event: "inventory:drop"
