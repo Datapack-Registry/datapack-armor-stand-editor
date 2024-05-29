@@ -1,0 +1,43 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bug reports for the "Armor Stand Editor" datapack!
+        
+  - type: input
+    id: minecraft-version
+    attributes:
+      label: 'Minecraft version'
+      description: 'What Minecraft version did you use when encountering the bug?'
+      placeholder: 'ex. 1.20.6'
+    validations:
+      required: true
+      
+  - type: input
+    id: version
+    attributes:
+      label: 'Datapack version'
+      description: 'What version of the datapack do you use?'
+      placeholder: 'ex. v1.0.0'
+    validations:
+      required: true
+      
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: What happened?
+      description: 'What did you expect to happen?'
+      placeholder: 'Tell us, what kind of bug you did encounter...'
+    validations:
+      required: true
+      
+  - type: textarea
+    id: error-message
+    attributes:
+      label: 'Log output (ex. errors)'
+      description: 'Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.'
+      render: txt
