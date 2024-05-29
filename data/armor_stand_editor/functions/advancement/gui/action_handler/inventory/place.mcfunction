@@ -1,6 +1,6 @@
 #> armor_stand_editor:gui/action_handler/inventory/place
 #
-# This function gets triggered when an item is placed in the GUI.
+# This function gets triggered when a GUI item is placed in the GUI.
 
 advancement revoke @s only armor_stand_editor:gui/action_handler/inventory/place
 
