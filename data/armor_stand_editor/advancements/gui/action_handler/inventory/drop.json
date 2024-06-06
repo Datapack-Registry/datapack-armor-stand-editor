@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "place": {
+    "drop": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [

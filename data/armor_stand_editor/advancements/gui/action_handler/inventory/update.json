@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "pick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "slots": {
+                "player.cursor": {
+                  "predicates": {
+                    "minecraft:custom_data": "{armor_stand_editor:{}}"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "place": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{armor_stand_editor:{}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "pick",
+      "place"
+    ]
+  ],
+  "rewards": {
+    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/update"
+  }
+}
