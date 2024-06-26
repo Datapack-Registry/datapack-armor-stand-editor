@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "nbt": "{Tags:['armor_stand_editor.advancement.gui.action_handler.inventory.place.cursor']}"
+              "nbt": "{Tags:['armor_stand_editor.advancement.gui.action_handler.inventory.cursor.place.cursor']}"
             }
           }
         ],
@@ -23,6 +23,6 @@
     }
   },
   "rewards": {
-    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/place"
+    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/cursor/place"
   }
 }

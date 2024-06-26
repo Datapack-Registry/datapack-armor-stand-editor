@@ -22,6 +22,6 @@
     }
   },
   "rewards": {
-    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/pick"
+    "function": "armor_stand_editor:advancement/gui/action_handler/inventory/cursor/pick"
   }
 }
