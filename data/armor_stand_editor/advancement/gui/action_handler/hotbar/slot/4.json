@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "function": "armor_stand_editor:advancement/gui/action_handler/hotbar/slot/0"
+    "function": "armor_stand_editor:advancement/gui/action_handler/hotbar/slot/4"
   }
 }

@@ -49,8 +49,6 @@ advancement revoke @a only armor_stand_editor:gui/action_handler/inventory/slot/
 advancement revoke @a only armor_stand_editor:gui/action_handler/inventory/slot/25
 advancement revoke @a only armor_stand_editor:gui/action_handler/inventory/slot/26
 
-
-
 scoreboard objectives add \
   armor_stand_editor.advancement.gui.action_handler.inventory.drop minecraft.custom:minecraft.drop
 
